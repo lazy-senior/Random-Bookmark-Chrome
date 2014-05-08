@@ -1,0 +1,27 @@
+{
+  "manifest_version": 2,
+
+  "name": "Random Bookmark",
+  "description": "Provides a button to open a random bookmark or history entry. Additionally it provides a high grade of configurability.",
+  "version": "0.1",
+  "author":"Vinzenz Boening, Christian Sdunek",
+  "options_page": "options/option.html",
+  "default_locale": "en",
+
+  "icons": { 
+    "16": "skin/icon16-red.png",
+    "48": "skin/icon48.png" 
+  },
+
+  "background": { 
+    "scripts": ["background.js"] 
+  },
+  "browser_action": {
+    "default_icon": "skin/icon16-red-bookmark.png"
+  },
+  
+  "permissions": [
+    "bookmarks",
+    "history"
+  ]
+}

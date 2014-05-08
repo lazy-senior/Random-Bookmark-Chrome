@@ -1,0 +1,39 @@
+{
+	"settings_heading": {
+		"message": "Einstellungen"
+	},
+
+	"settings_buttonstyle": {
+		"message": "Aussehen des Buttons"
+	},
+
+	"settings_source": {
+		"message": "Auswahlquelle"
+	},
+	"settings_source_bookmark": {
+		"message": "Lesezeichen"
+	},
+	"settings_source_history": {
+		"message": "Verlauf"
+	},
+	"settings_source_combined": {
+		"message": "Kombiniert"
+	},
+
+	"settings_filter": {
+		"message": "Filter"
+	},
+	"settings_filter_enabled": {
+		"message": "Filtern aktivieren"
+	},
+	"settings_filter_addfilter": {
+		"message": "Filter hinzufügen"
+	},
+
+	"settings_save": {
+		"message": "Speichern"
+	},
+	"settings_cancel": {
+		"message": "Abbrechen"
+	}
+}

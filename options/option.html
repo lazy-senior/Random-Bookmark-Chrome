@@ -1,0 +1,52 @@
+<html>
+	<head>
+		<link href="css/option.css" rel="stylesheet" media="screen">
+		<title>Random Bookmark Settings</title>
+	</head>
+	<body>
+		<div id="container">
+			<div id="logo">
+				<img src="../skin/icon64.png" alt="">
+			</div>
+			<div id="main">
+				<form id="rbform">
+					<legend class="i18n_settings_heading">Random Bookmark Settings</legend>
+					<div id="settings">
+						<legend class="i18n_settings_buttonstyle">Button Style</legend>
+						<fieldset id="settings_button_style">
+							<input type="radio" name="button_style" id="button_style_classic" value="classic"><div class="button_icon"><img src="../skin/icon16-classic.png"></div>
+							<input type="radio" name="button_style" id="button_style_symbiose" value="symbiose"><div class="button_icon"><img src="../skin/icon16-symbiose.png"></div>
+							<input type="radio" name="button_style" id="button_style_red" value="red"><div class="button_icon"><img src="../skin/icon16-red.png"></div>
+							<input type="radio" name="button_style" id="button_style_black" value="black"><div class="button_icon"><img src="../skin/icon16-black.png"></div>
+						</fieldset>
+						<br>
+						<legend class="i18n_settings_source">Selection Source</legend>
+						<fieldset id="settings_selection_source">
+							<input type="radio" name="selection_source" id="selection_source_bookmark" value="bookmark">
+							<div class="button_icon"><img src="../skin/icon16-red-bookmark.png"></div><div class="button_icon_hint i18n_settings_source_bookmark">Bookmark</div>
+							<br>
+							<input type="radio" name="selection_source" id="selection_source_history" value="history">
+							<div class="button_icon"><img src="../skin/icon16-red-history.png"></div><div class="button_icon_hint i18n_settings_source_history">History</div>
+							<br>
+							<input type="radio" name="selection_source" id="selection_source_combined" value="combined">
+							<div class="button_icon"><img src="../skin/icon16-red-combined.png"></div><div class="button_icon_hint i18n_settings_source_combined">Combined</div>
+						</fieldset>
+						<br>
+						<legend class="i18n_settings_filter">Filter</legend>
+						<fieldset id="settings_filter">
+							<input type="checkbox" name="filter" id="filtering_enabled"><div class="checkbox_hint i18n_settings_filter_enabled">Enable filtering</div><br>
+							<input type="button" id="add_filter" class="i18n_settings_filter_addfilter" value="Add filter">
+							<div id="filter_list">
+							</div>
+						</fieldset>
+						<br>
+						<input type="button" id="save" class="i18n_settings_save" value="Save">
+						<input type="button" id="cancel" class="i18n_settings_cancel" value="Cancel">
+					</div>
+				</form>
+			</div>
+	    </div>
+	    <script srt="include.js"></script>
+	    <script src="option.js"></script>
+	</body>
+</html>

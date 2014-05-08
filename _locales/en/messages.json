@@ -1,0 +1,39 @@
+{
+	"settings_heading": {
+		"message": "Settings"
+	},
+
+	"settings_buttonstyle": {
+		"message": "Button Style"
+	},
+
+	"settings_source": {
+		"message": "Selection Source"
+	},
+	"settings_source_bookmark": {
+		"message": "Bookmark"
+	},
+	"settings_source_history": {
+		"message": "History"
+	},
+	"settings_source_combined": {
+		"message": "Combined"
+	},
+
+	"settings_filter": {
+		"message": "Filter"
+	},
+	"settings_filter_enabled": {
+		"message": "Enable filtering"
+	},
+	"settings_filter_addfilter": {
+		"message": "Add filter"
+	},
+
+	"settings_save": {
+		"message": "Save"
+	},
+	"settings_cancel": {
+		"message": "Cancel"
+	}
+}
